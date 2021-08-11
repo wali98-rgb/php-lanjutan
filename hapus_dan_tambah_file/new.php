@@ -9,8 +9,17 @@
 	function hai(){
 		echo "Folder berhasil di buat";
 	}
- 
-	mkdir("dinamis_php",hai());
+
+	function dadah(){
+		echo "Folder Berhassil Di Hapus";
+	}
+	
+	// create folder
+	// mkdir("dugul",hai());
+
+	// delete folder
+	rmdir("dugul",dadah());
+
 	?>
 </body>
 </html>
