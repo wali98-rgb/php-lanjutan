@@ -15,10 +15,10 @@
 	}
 	
 	// create folder
-	// mkdir("dugul",hai());
+	// mkdir("dugul.php",hai());
 
 	// delete folder
-	rmdir("dugul",dadah());
+	rmdir("dugul.php",dadah());
 
 	?>
 </body>
