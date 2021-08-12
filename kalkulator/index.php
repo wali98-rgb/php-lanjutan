@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat Kalkulator Sederhana Dengan PHP | www.waliyyuddin.com</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<tittle>Membuat Kalkulator Sederhana Dengan PHP | www.waliyyuddin.com</tittle>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<?php 
@@ -11,16 +11,16 @@
 		$bil2 = $_POST['bil2'];
 		$operasi = $_POST['operasi'];
 		switch ($operasi) {
-			case 'tambah':
+			case 'tambah';
 				$hasil = $bil1+$bil2;
 			break;
-			case 'kurang':
+			case 'kurang';
 				$hasil = $bil1-$bil2;
 			break;
-			case 'kali':
+			case 'kali';
 				$hasil = $bil1*$bil2;
 			break;
-			case 'bagi':
+			case 'bagi';
 				$hasil = $bil1/$bil2;
 			break;			
 		}
