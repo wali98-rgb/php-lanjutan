@@ -1,0 +1,54 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.2.2
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Feb 12, 2016 at 09:28 AM
+-- Server version: 5.5.27
+-- PHP Version: 5.4.7
+ 
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+ 
+ 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+ 
+--
+-- Database: `tutorial`
+--
+ 
+-- --------------------------------------------------------
+ 
+--
+-- Table structure for table `masjid`
+--
+ 
+CREATE TABLE IF NOT EXISTS `masjid` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(50) NOT NULL,
+  `alamat` text NOT NULL,
+  `kecamatan` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=64 ;
+ 
+--
+-- Dumping data for table `masjid`
+--
+ 
+INSERT INTO `masjid` (`id`, `nama`, `alamat`, `kecamatan`) VALUES
+(1, 'Masjid Al-Bayyinah', 'Bandung', 'Coblong'),
+(2, 'Masjid Al-Bayyan', 'Bandung', 'Coblong'),
+(3, 'Masjid Al-Jami', 'Jakarta', 'Pasir Atas'),
+(4, 'Masjid Al-Insan', 'Bogor', 'Tungku Sidang'),
+(5, 'Masjid Al-Nurul', 'Bogor', 'Durman'),
+(6, 'Masjid Al-Hassan', 'Jakarta', 'KusirMas'),
+(7, 'Masjid Jihadul', 'Bandung', 'Bandung Wetan'),
+(8, 'Masjid Agung', 'Jakarta', 'Mincirang'),
+(9, 'Masjid Malikinnas', 'Jakarta', 'Gundaram');
+ 
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
